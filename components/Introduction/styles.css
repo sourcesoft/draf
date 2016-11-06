@@ -1,0 +1,43 @@
+.introduction { /* stylelint-disable */
+  color: #FFF;
+  font-size: 35px;
+  margin: 0 auto;
+  width: 630px;
+}
+.subTitle {
+  border-top: 3px solid #FFF;
+  line-height: 2;
+  margin-top: 24px;
+  width: 521px;
+  display: inline-table;
+  margin-bottom: 41px;
+}
+.img {
+  margin-top: 150px;
+}
+.highlightBtns {
+  margin: 0 14px;
+}
+@media only screen and (max-width: 600px) {
+  .introduction {
+    color: #FFF;
+    font-size: 35px;
+    margin: 0 auto;
+    width: 99%;
+  }
+  .img {
+    width: 91%;
+    margin: 90px 3% 0;
+  }
+  .subTitle {
+    border-top: 3px solid #FFF;
+    line-height: 2;
+    margin: 24px 4% 0;
+    width: 90%;
+    display: block;
+    padding-bottom: 80px;
+  }
+  .subTitle span {
+    font-size: 27px;
+  }
+}

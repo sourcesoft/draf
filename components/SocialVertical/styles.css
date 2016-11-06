@@ -1,0 +1,25 @@
+.socialVertical { /* stylelint-disable */
+  position: absolute;
+  left: 13px;
+  top: 39%;
+}
+.a {
+  clear: both;
+  display: block;
+  margin: 9px 0;
+}
+.a:hover {
+  opacity: .7;
+}
+@media only screen and (max-width: 600px) {
+  .socialVertical {
+    position: absolute;
+    left: 30%;
+    bottom: 3%;
+    top: auto;
+  }
+  .a {
+    display: inline;
+    margin: 9px 11px;
+  }
+}

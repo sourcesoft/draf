@@ -1,0 +1,17 @@
+.bubbles { /* stylelint-disable */
+  margin-top: 90px;
+}
+
+.bubblesTop {
+  margin-top: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .payments {
+    margin-top: 170px;
+  }
+  .bubblesTop {
+    margin-top: 90px;
+  }
+}

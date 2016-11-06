@@ -1,0 +1,176 @@
+.textSection {
+  margin: 3em auto;
+}
+
+.textSection:first-child {
+  margin-top: 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+p,
+label {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.5em;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.usernameForm {
+  margin-bottom: 1em;
+}
+
+.input {
+  outline: none;
+  border-bottom: 1px dotted #999;
+}
+
+.atPrefix {
+  color: black;
+  margin-left: 0.4em;
+}
+
+.fullpage {
+  height: 100%;
+  width: 100%;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+}
+
+.sectionFirst {
+  position: relative;
+  background-image: url(./files/bg-top.jpg);
+  background-color: #2D2A2A;
+}
+
+.sectionSecond {
+  position: relative;
+
+  /* background: url(./files/bg-2.jpg); */
+}
+
+.sectionThird {
+  position: relative;
+  background: url(./files/bg-3.jpg);
+}
+
+.sectionForth {
+  position: relative;
+  background: url(./files/bg-4.jpg);
+}
+
+.overlayFirst {
+  background-color: #000;
+  opacity: 0.46;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+}
+
+.overlaySecond {
+  background-color: #3C2B42;
+  opacity: 0.86;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.overlayThird {
+  background-color: #FFF;
+  opacity: 0.56;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.overlayForth {
+  background-color: #000;
+  opacity: 0.86;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+:global(#fp-nav ul li) {
+  margin: 0 7px 14px 0;
+}
+
+:global(#fp-nav ul li a.active span) {
+  height: 20px;
+  width: 20px;
+  left: 8px;
+  border: none;
+  background: #FFF;
+}
+
+:global(#fp-nav ul li:hover a.active span) {
+  height: 20px;
+  width: 20px;
+  left: 8px;
+  border: 1px solid #FFF;
+}
+
+:global(#fp-nav ul li:hover a.active span) {
+  border: 1px solid #FFF;
+}
+
+:global(#fp-nav ul li a span) {
+  height: 15px;
+  width: 15px;
+  border: 1px solid #FFF;
+  background: none;
+}
+
+:global(#fp-nav ul li:hover a span) {
+  height: 15px;
+  width: 15px;
+  border: 1px solid #FFF;
+  margin: -2px 0 0 -2px;
+}
+
+:global(#fp-nav ul li .fp-tooltip.right) {
+  right: 20px;
+  top: 2px;
+}
+
+.sectionContent {
+  position: relative;
+  z-index: 5;
+  height: 100%;
+}
+
+.registerDes {
+  padding: 90px 91px 0;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  z-index: 5;
+}
+
+@media only screen and (max-width: 600px) {
+  .registerDes {
+    padding: 90px 21px 0;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .sectionSecond {
+    height: 200%;
+  }
+}
+
+.galleryHeader {
+  padding: 20px;
+  color: #FFF;
+  position: relative;
+  font-size: 21px;
+}

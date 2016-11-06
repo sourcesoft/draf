@@ -1,0 +1,51 @@
+.docker { /* stylelint-disable */
+  color: #FFF;
+  width: 280px;
+  background-color: #332B24;
+  height: 100%;
+}
+.smallLogo {
+  float: left;
+  width: 52px;
+  margin-right: 15px;
+}
+.homeLink {
+  margin-left: 10px;
+  margin-top: 13px;
+  float:left;
+  color: #FFF;
+}
+.links {
+  margin-left: 0px;
+  padding-top: 13px;
+  color: #FFF;
+  border-bottom: 1px solid #CCC;
+  background-color: #332B24;
+}
+.links:hover {
+  color: rgb(167, 117, 19);
+}
+.links span {
+  padding: 18px 10px;
+  float: left;
+  width: 180px;
+  height: 63px;
+  text-align: left;
+}
+.icon span {
+  padding: 18px 0;
+}
+.lang {
+  bottom: 0;
+  display: table-row-group;
+  height: 70px;
+  vertical-align: bottom;
+  float: left;
+  padding: 13px;
+  width: 280px;
+  text-align: right;
+  font-size: 20px;
+}
+.links span.langLabel {
+  padding: 0;
+}

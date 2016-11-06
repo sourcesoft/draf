@@ -1,0 +1,19 @@
+.mediaGrid {
+  height: 100%;
+  background: #FEFFEC;
+  width: 84%;
+  float: left;
+  overflow: auto;
+}
+
+.dropzone {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .mediaGrid {
+    width: 100%;
+    padding-top: 84px;
+    float: none;
+  }
+}

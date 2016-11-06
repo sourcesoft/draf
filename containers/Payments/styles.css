@@ -1,0 +1,30 @@
+.payments { /* stylelint-disable */
+  height: 100%;
+  background: #FEFFEC;
+  width: 84%;
+  float: left;
+  overflow: scroll;
+}
+
+.paymentsGrid {
+  height: 100%;
+  /* position: absolute; */
+  background: #FEFFEC;
+  width: 84%;
+  float: left;
+  overflow: auto;
+}
+
+.dev {
+  padding: 20px;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .payments {
+    width: 100%;
+  }
+  .paymentsGrid {
+    width: 99%;
+  }
+}

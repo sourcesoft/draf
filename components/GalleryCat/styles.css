@@ -1,0 +1,46 @@
+.galleryCat { /* stylelint-disable */
+  margin-left: 20px;
+  font-weight: normal;
+  line-height: 2;
+  border: 4px solid #FFF;
+  color: #FFF;
+  margin: 15px 9px;
+  padding: 4px 7px;
+  text-align: center;
+}
+.galleryCat:hover {
+  cursor: pointer;
+  color: #e9c993;
+  border-color: #e9c993;
+}
+.active {
+  color: #494949;
+  border-color: #494949;
+  background-color: #F5A623;
+}
+.bottom {
+  bottom: 12px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+@media only screen and (max-width: 768px) {
+  .galleryCat {
+    margin: 0px 2%;
+    float: left;
+    padding: 4px 3%;
+    width: 28%;
+    text-align: center;
+  }
+  .bottom {
+    display: none;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .galleryCat {
+    text-align: center;
+    font-size: 13px;
+    height: 49px;
+    padding: 8px 3%;
+  }
+}

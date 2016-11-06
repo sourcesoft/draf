@@ -1,0 +1,27 @@
+.highlightBtn { /* stylelint-disable */
+  background-color: rgba(0,0,0,0.5);
+  border: 1px solid #FFF;
+  line-height: 1;
+  padding: 11px;
+  display: inline-block;
+  font-size: 17px;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+.highlightBtn:hover {
+  background-color: rgba(105, 6, 117, 0.5);
+}
+.highlightBtn span {
+  font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+  .highlightBtn {
+    display: block;
+    margin-top: 21px;
+    line-height: 1.8;
+  }
+  .highlightBtn span {
+    font-size: 14px;
+  }
+}

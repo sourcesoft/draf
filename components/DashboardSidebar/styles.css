@@ -1,0 +1,19 @@
+.dashboardSidebar { /* stylelint-disable */
+  float: left;
+  width: 15%;
+  height: 100%;
+  padding-top: 20px;
+  background-color: #000000;
+  color: #FFF;
+  position: relative;
+}
+@media only screen and (max-width: 768px) {
+    .dashboardSidebar {
+      width:100%;
+      height: 83px;
+      background-color: #865e15;
+      position: absolute;
+      z-index: 1;
+      float: none;
+    }
+}

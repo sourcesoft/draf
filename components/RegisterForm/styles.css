@@ -1,0 +1,24 @@
+.registerForm { /* stylelint-disable */
+  margin-top: 30px;
+}
+.submit {
+  color: #FFF;
+  background-color: #494949;
+  padding-left: 9px;
+  width: 120px;
+  height: 51px;
+  margin: 29px 0 0 41%;
+  cursor: pointer;
+}
+.submit:disabled {
+  color: #CCC;
+  cursor: not-allowed;
+}
+.header {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.err {
+  color: #f5a623;
+}

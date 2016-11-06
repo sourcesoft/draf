@@ -1,0 +1,25 @@
+.bubble { /* stylelint-disable */
+  background-color: #494949;
+  color: #F4A523;
+  margin: 12px;
+  min-height: 90px;
+}
+.header {
+  padding: 0 14px;
+  height: 24px;
+  background-color: #F4A523;
+  color: #494949;
+}
+.from {
+  text-align: left;
+  float: left;
+}
+.date {
+  text-align: right;
+  float: right;
+  border-left: 4px solid #494949;
+  padding-left: 10px;
+}
+.body {
+  padding: 10px;
+}

@@ -1,0 +1,9 @@
+:global(.section) {
+  background-size: cover;
+  text-align: center;
+  min-height: 100%;
+}
+
+:global(.contentInside) {
+  z-index: 1;
+}

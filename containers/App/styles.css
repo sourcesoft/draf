@@ -1,0 +1,98 @@
+/* Global styles */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  -webkit-backface-visibility: hidden;
+}
+
+/*
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+*/
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #888;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: #CECED4;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: #F3F3F3;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body.fontLoaded {
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+:global(#app) {
+  height: 100%;
+  min-width: 100%;
+  float: left;
+  background-color: #282828;
+}
+
+.wrapper {
+  max-width: calc(768px + 16px * 2);
+  margin: 0 auto;
+  display: flex;
+  min-height: 100%;
+  padding: 0 16px;
+  flex-direction: column;
+}
+
+.screenHome {
+  height: 100%;
+  min-width: 100%;
+  float: left;
+  background-color: #FEFFEC;
+}
+
+.screen {
+  min-height: 100%;
+  min-width: 100%;
+  float: left;
+  background-color: #FEFFEC;
+}
+
+.topMenu {
+  height: 90px;
+  position: absolute;
+  z-index: 6;
+  width: 100%;
+}
+
+.logoWrapper {
+  padding: 2em 0;
+}
+
+.logo {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.sidebar {
+  color: #FFF;
+  width: 280px;
+  background-color: #332B24;
+  height: 100%;
+}

@@ -1,0 +1,12 @@
+.galleryGridHome {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+
+@media only screen and (max-width: 768px) {
+  .galleryGridHome {
+    width: 100%;
+  }
+}
